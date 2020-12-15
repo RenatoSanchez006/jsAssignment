@@ -6,7 +6,7 @@ import { Typography, Container } from "@material-ui/core";
 
 const PLACE_URL = "https://nominatim.openstreetmap.org/?format=json&limit=1";
 const QUAKES_URL =
-  "http://api.geonames.org/earthquakesJSON?username=rsanchez006&maxRows=10";
+  "https://api.geonames.org/earthquakesJSON?username=rsanchez006&maxRows=10";
 
 function App() {
   const [locationText, setLocationText] = useState("");
